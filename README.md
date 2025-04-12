@@ -34,5 +34,8 @@ Simulate multiple transactions running concurrently and attempting to commit cha
 - Other transactions either retry or fail with a conflict.
 - The final state (i.e., snapshot) is consistent and includes only successfully committed data.
 
----
+### Assignment
+- Implement OptimisticTransaction.commit method.
+- Write a test in DeltaTableTest to verify that if two transactions are started
+  only one succeeds.
 
